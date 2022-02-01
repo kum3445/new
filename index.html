@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>this is my place</title>
+</head>
+<body>
+    <h1 id="demo">for seeing the true author name press the show button</h1>
+    
+<button onclick="myfunction1()" id="show">show me</button> <br>
+<button onclick="myfunction2()", id = "button" >print this page</button>
+<script>
+    function myfunction1(){
+        document.getElementById("demo").innerHTML="M.J.V SAI RATNA KUMAR"
+    }
+   
+    function myfunction2(){
+        document.getElementById("button").style.display="none"
+        document.getElementById("show").style.display="none"
+        window.print()
+    }
+    alert("you entered into a brilliant page")
+</script>
+</body>
+</html>
